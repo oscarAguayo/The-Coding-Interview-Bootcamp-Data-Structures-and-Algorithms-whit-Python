@@ -1,13 +1,13 @@
-# The Coding Interview Bootcamp Data Structures and Algorithms whit Python
+# The Coding Interview Bootcamp Data Structures and Algorithms with Python
 
-This is a "fork" repo from [https://github.com/StephenGrider/AlgoCasts](https://github.com/StephenGrider/AlgoCasts) but whit exercises in Python instead Javascript.
+This is a "fork" repo from [https://github.com/StephenGrider/AlgoCasts](https://github.com/StephenGrider/AlgoCasts) but with exercises in Python instead Javascript.
 
 ## Instructions
 
 ### Clone the repo
 
 ```shell
-git clone https://github.com/oscarAguayo/The-Coding-Interview-Bootcamp-Data-Structures-and-Algorithms-whit-Python.git
+git clone https://github.com/oscarAguayo/The-Coding-Interview-Bootcamp-Data-Structures-and-Algorithms-with-Python.git
 ```
 
 ### Create and activate virtual environment
