@@ -6,7 +6,7 @@ def reverse(text: str):
 #   reverse('apple') === 'elppa'
 #   reverse('hello') === 'olleh'
 #   reverse('Greetings!') === '!sgniteerG'
-    pass
+    return ''.join(list(text)[::-1])
 
 if __name__ == "__main__":
     print(f"Reverse is: {reverse(input('Given a string: '))}")
