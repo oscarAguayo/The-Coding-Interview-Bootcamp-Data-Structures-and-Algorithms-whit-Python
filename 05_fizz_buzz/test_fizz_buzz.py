@@ -1,11 +1,11 @@
-import main
+from fizz_buzz import fizz_buzz
 
 def test_length_of_5_elements():
-    data = main.fizz_buzz(5)
+    data = fizz_buzz(5)
     assert len(data) == 5
 
 def test_fizz_buzz_values_of_15():
-    data = main.fizz_buzz(15)
+    data = fizz_buzz(15)
     assert data[0] == 1
     assert data[1] == 2
     assert data[2] == "fizz"
