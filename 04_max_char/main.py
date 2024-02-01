@@ -2,8 +2,8 @@
 ## Given a string, return the character that is most
 ## commonly used in the string.
 ## --- Examples
-## maxChar("abcccccccd") === "c"
-## maxChar("apple 1231111") === "1"
+## max_char("abcccccccd") == "c"
+## max_char("apple 1231111") == "1"
 
 def max_char(text: str) -> str:
     pass
