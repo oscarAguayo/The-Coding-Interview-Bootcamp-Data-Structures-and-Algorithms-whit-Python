@@ -9,7 +9,14 @@
 # chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
 def chunk(data: list, size: int) -> list:
-    pass
+    final_list = []
+    tmp_list = []
+    for i, value in enumerate(data, start=1):
+        tmp_list.append(value)
+        if i % size == 0 or i == len(data):
+            final_list.append(tmp_list.copy())
+            tmp_list.clear()
+    return final_list
 
 if __name__ == "__main__":
     data = eval(input("Give a list: "))
