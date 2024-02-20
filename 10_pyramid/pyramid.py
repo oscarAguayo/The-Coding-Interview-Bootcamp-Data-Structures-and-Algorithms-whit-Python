@@ -15,7 +15,10 @@
 #       '#####'
 
 def pyramid(n: int) -> None:
-    pass
+    for i in range(1, n+1):
+        spaces = " "*(n - i)
+        symbols = "#"*((i*2) - 1)
+        print(spaces+symbols+spaces)
 
 if __name__ == "__main__":
     pyramid(int(input("Give a positive number: ")))
