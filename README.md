@@ -28,16 +28,16 @@ source venv/bin/activate
 
 ## Exercises
 
-The exercises will be enumerated in the root folder. Inside each folder will be have a `main.py` file with instructions inside comments and `test_main.py` file, with the test functions necessary to validate the solution.
+The exercises will be enumerated in the root folder. Inside each folder will be have an enumerate folder with each exercise in a `<exercise_name>.py` file with instructions inside comments and a `test_<exercise_name>.py` file, with the test functions necessary to validate the solution.
 
 ### Solving exercises
 
-Each exercise contain a `main.py` file with functions with `pass` statements, you need to implement the solution to solve the specified problem in comments.
+Each exercise contain a `<exercise_name>.py` file with functions with `pass` statement, you need to implement the solution to solve the specified problem in comments.
 
-Each `main.py` can be executed to test the solution with
+Each `<exercise_name>.py` can be executed to test the solution with
 
 ```shell
-(venv) $ python <folder_exercise>/main.py
+(venv) $ python <folder_exercise>/<exercise_name>.py
 ```
 
 But this is only for test inside the file, the real test will be made like specified in the next section.
@@ -47,7 +47,7 @@ But this is only for test inside the file, the real test will be made like speci
 To validate the solution of the problem, you will be run specific test with
 
 ```shell
-(venv) $ pytest <folder_exercise>/test_main.py
+(venv) $ pytest <folder_exercise>/test_<exercise_name>.py
 ```
 
 Or you can execute all tests with
