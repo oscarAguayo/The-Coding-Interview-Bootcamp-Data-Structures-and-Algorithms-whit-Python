@@ -6,9 +6,10 @@
 #   vowels('Hi There!') --> 3
 #   vowels('Why do you ask?') --> 4
 #   vowels('Why?') --> 0
+import re
 
 def vowels(text: str) -> int:
-    pass
+    return len(re.findall(r"[aeiouAEIOU]", text))
 
 if __name__ == "__main__":
     print(vowels(input("Give a text: ")))
