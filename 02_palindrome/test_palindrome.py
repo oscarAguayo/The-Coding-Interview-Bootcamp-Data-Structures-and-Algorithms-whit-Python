@@ -1,4 +1,8 @@
+import types
 from palindrome import palindrome
+
+def test_palindrome_function_exist():
+    assert isinstance(palindrome, types.FunctionType)
 
 def test_palindrome():
     assert palindrome("abba") == True

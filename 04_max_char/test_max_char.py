@@ -1,4 +1,8 @@
+import types
 from max_char import max_char
+
+def test_max_char_function_exist():
+    assert isinstance(max_char, types.FunctionType)
 
 def test_max_char():
     assert max_char("abcccccccd") == "c"

@@ -1,4 +1,8 @@
+import types
 from reverse_string import reverse
+
+def test_reverse_function_exist():
+    assert isinstance(reverse, types.FunctionType)
 
 def test_reverse():
     assert reverse("apple") == "elppa"
