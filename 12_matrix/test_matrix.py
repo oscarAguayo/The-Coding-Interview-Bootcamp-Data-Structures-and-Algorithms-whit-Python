@@ -24,3 +24,38 @@ def test_matrix_4x4():
     assert m[1] == [12, 13, 14, 5]
     assert m[2] == [11, 16, 15, 6]
     assert m[3] == [10, 9, 8, 7]
+    
+# Matrix 2x2
+# temp_list[0][0]
+# temp_list[0][1]
+# temp_list[1][1]
+# temp_list[1][0]
+
+# Matrix 3x3
+# temp_list[0][0]
+# temp_list[0][1]
+# temp_list[0][2]
+# temp_list[1][2]
+# temp_list[2][2]
+# temp_list[2][1]
+# temp_list[2][0]
+# temp_list[1][0]
+# temp_list[1][1]
+
+# Matrix 4x4
+# temp_list[0][0]
+# temp_list[0][1]
+# temp_list[0][2]
+# temp_list[0][3]
+# temp_list[1][3]
+# temp_list[2][3]
+# temp_list[3][3]
+# temp_list[3][2]
+# temp_list[3][1]
+# temp_list[3][0]
+# temp_list[2][0]
+# temp_list[1][0]
+# temp_list[1][1]
+# temp_list[1][2]
+# temp_list[2][2]
+# temp_list[2][1]
