@@ -13,8 +13,7 @@
 ##   buzz
 
 def fizz_buzz(number: int) -> list:
-    pass
+    print(1)
 
 if __name__ == "__main__":
-    for number in fizz_buzz(int(input("Give a number: "))):
-        print(number)
+    fizz_buzz(int(input("Give a number: ")))
