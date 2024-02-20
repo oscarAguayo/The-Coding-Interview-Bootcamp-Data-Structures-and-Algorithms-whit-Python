@@ -8,7 +8,8 @@
 #   capitalize('look, it is working!') --> 'Look, It Is Working!'
 
 def capitalize(text: str) -> str:
-    pass
+    # return text.title()
+    return " ".join([''.join([char.upper() if i == 0 else char for i, char in enumerate(part)]) for part in text.split()])
 
 if __name__ == "__main__":
     print(capitalize(input("Give a string: ")))
