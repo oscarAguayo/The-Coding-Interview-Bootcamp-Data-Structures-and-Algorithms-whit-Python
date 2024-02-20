@@ -18,7 +18,8 @@
 #       '####'
 
 def steps(n: int) -> None:
-    pass
+    for i in range(1, n+1):
+        print(i*'#'+(n-i)*' ')
 
 if __name__ == "__main__":
     steps(int(input("Give a positive number: ")))
