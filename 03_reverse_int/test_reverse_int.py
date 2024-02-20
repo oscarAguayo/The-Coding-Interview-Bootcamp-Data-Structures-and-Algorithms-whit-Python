@@ -1,4 +1,8 @@
+import types
 from reverse_int import reverse_int
+
+def test_reverse_int_function_exist():
+    assert isinstance(reverse_int, types.FunctionType)
 
 def test_zero():
     assert reverse_int(0) == 0

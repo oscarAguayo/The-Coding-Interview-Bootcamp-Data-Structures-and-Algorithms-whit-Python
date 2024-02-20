@@ -1,4 +1,8 @@
+import types
 from fizz_buzz import fizz_buzz
+
+def test_fizz_buzz_function_exist():
+    assert isinstance(fizz_buzz, types.FunctionType)
 
 def test_length_of_5_elements():
     data = fizz_buzz(5)
