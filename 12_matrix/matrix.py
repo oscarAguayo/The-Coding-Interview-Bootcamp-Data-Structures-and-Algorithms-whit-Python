@@ -19,4 +19,5 @@ def matrix(n: int) -> list:
     pass
 
 if __name__ == "__main__":
-    print(matrix(int(input("Give an integer: "))))
+    for raw in matrix(int(input("Give an integer: "))):
+        print(raw)
