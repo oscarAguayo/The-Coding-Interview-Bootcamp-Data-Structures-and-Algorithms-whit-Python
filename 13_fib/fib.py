@@ -9,7 +9,16 @@
 #   fib(4) === 3
 
 def fib(n: int) -> int:
-    pass
+    val = 0
+    fib_list = []
+    for i in range(n+1):
+        if i == 0 or i == 1:
+            fib_list.append(i)
+            val = i
+        else:
+            val = fib_list[i-2] + fib_list[i-1]
+            fib_list.append(val)
+    return val
 
 if __name__ == "__main__":
     n = int(input("Give a number: "))
